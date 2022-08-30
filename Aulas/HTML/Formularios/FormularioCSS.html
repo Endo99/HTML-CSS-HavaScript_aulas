@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Semântica Formulários</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Wellington">
+        <meta name="description" content="Tabelas">
+        <meta name="keywords" content="html5, Formulários, css3">
+
+        <style>
+            .formLogin{
+                width: 250px;
+                margin:  50px auto 0;
+                font-family: sans-serif;
+            }
+
+            .formLogin fieldset {
+                background-color: grey;
+                border-color: violet;
+            }
+
+            .formLogin label {
+                margin-top: 25px;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .formLogin legend {
+                background: white;
+                padding: 10px;
+            }
+
+            #user, #password, .btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 15px;
+                font-size: 18px;
+                border: none;
+            }
+
+            #user, #password {
+                background: #ddd;
+
+            }
+
+            #user:focus, #password:focus {
+                background: white;;
+                color: red;
+            }
+
+            .btn {
+                margin-top: 20px;
+            }
+
+            .btn:hover {
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <form action="#" method="get" class="formLogin">
+            <fieldset>
+                <legend>Login</legend>
+
+                <label for="user">Usuário:</label>
+                <input id="user" type="text" name="userLogin" autofocus>
+
+                <label for="password">Senha:</label>
+                <input id="password" type="password" name="passwordLogin">
+
+                <input type="submit" value="Logar" class="btn">
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
