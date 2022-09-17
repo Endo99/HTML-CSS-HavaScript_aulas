@@ -18,6 +18,11 @@ body{
         background-size: cover;
     }
 
+    ul li {
+        display: inline-block;
+        text-decoration: none;
+    }
+
     .hero-content{
         text-align: center;
         color: white;
@@ -42,6 +47,12 @@ body{
         margin-top: 15px;
     }
 
+    .content-section .card {
+        display: inline-block;
+        padding: 25px;
+        position: relative;
+    }
+
     .hero-content-2{
         background-color: #ccc;
     }
@@ -53,6 +64,7 @@ body{
         background-color: rgba(124, 122, 122, 0.151);
         padding: 5px;
         border-bottom: solid 1px rgb(165, 164, 164);
+        position: absolute;
     }
 
     .content-paragraphy{
